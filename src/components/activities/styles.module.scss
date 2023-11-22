@@ -1,0 +1,44 @@
+._hidden {
+  display: none;
+}
+
+._nav *{
+  padding: 1rem;
+  margin: 1rem;
+}
+
+._recent {
+  display: block;
+  border: solid 0.125rem black;
+  border-radius: 0.625rem;
+  padding: 1rem;
+  margin: 2rem;
+  th {
+    padding: 1rem;
+    font-size: 1.25rem;
+    border-radius: 0.3125rem;
+  }
+  td {
+    padding: 0.5rem;
+    border-radius: 0.3125rem;
+  }
+  tr:hover {
+    background-color: black;
+  }
+}
+
+._months {
+  display: block;
+}
+
+._singleMonth {
+  display: block;
+}
+
+._button {
+  cursor: pointer;
+}
+
+._button:hover {
+  background-color: rgba(255, 255, 255, 0.34);
+}
