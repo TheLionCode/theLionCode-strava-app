@@ -46,9 +46,6 @@ function App() {
       ) : (
         <Activities token={token} />
       )}
-      {/* <button>
-        <a href={authUrl}>Log Here!</a>
-      </button> */}
     </>
   );
 }
